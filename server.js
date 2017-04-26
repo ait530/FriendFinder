@@ -4,6 +4,8 @@
 // ==============================================================================
 var express = require("express");
 var bodyParser = require("body-parser");
+
+// Path allows us to deliver html pages easily to user with express
 var path = require("path");
 
 
