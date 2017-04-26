@@ -4,6 +4,8 @@
 <h2>Technologies Used:</h2>
 <ul>
   <li>JavaScript</li>
+  <li>Node.js</li>
+  <li>jQuery</li>
   <li>Express.js</li>
   <li>Bootstrap</li>
   <li>npm</li>
