@@ -50,7 +50,7 @@ app.listen(PORT, function() {
 
 
 // Pseudo-Code
-// Goals:
+// To Complete:
 // 1. Survey for the user
 // 2. Takes results of user's survey and compares their answers with those from other users.
 // 3. App will display the name and picture of the user with the best overall match
@@ -71,9 +71,10 @@ app.listen(PORT, function() {
 // A GET route with the url /api/friends. This will be used to display a JSON of all possible friends.
 // A POST routes /api/friends. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
 
+// Connect the pages.
 
 
 
 // Completed! :)
 // Your server.js file should require the basic npm packages we've used in class: express, body-parser and path
-// 
+
