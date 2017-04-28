@@ -1,7 +1,7 @@
 // ===============================================================================
 // LOAD DATA
 // We are linking our routes to a series of "data" sources.
-// These data sources hold arrays of information on table-data, waitinglist, etc.
+// These data sources hold arrays of information on table-data
 // ===============================================================================
 
 var tableData = require("../data/tableData");
@@ -49,9 +49,7 @@ module.exports = function(app) {
   });
 
   // ---------------------------------------------------------------------------
-  // I added this below code so you could clear out the table while working with the functionality.
-  // Don"t worry about it!
-
+  // Clears out the table while working with the functionality.
   app.post("/api/clear", function() {
     // Empty out the arrays of data
     tableData = [];
