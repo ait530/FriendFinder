@@ -2,7 +2,9 @@
 // DEPENDENCIES
 // Series of npm packages that we will use to give our server useful functionality
 // ==============================================================================
+// Used to build web apps & APIs for Node.js/the standard server framework
 var express = require("express");
+// Takes body portion of incoming request and makes it more manageable
 var bodyParser = require("body-parser");
 
 // Path allows us to deliver html pages easily to user with express
@@ -40,8 +42,6 @@ require("./app/routing/htmlRoutes")(app);
 // LISTENER
 // The below code effectively "starts" our server
 // ==============================================================================
-
-
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
 });
