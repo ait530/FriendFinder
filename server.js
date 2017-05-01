@@ -78,3 +78,53 @@ app.listen(PORT, function() {
 // Completed! :)
 // Your server.js file should require the basic npm packages we've used in class: express, body-parser and path
 
+
+
+
+
+
+// Notes from youtube videos that may help
+
+// Starwars APP:
+/* app.get is used when you want to go to the homepage or data, res.send is display message, res.json is display a variable in json format, do the same for darth maul.
+app.get and res are ROUTE FORMS*/
+/*
+Test Routes:
+-Type localhost:(port number)/(whatever desired route)
+
+
+Put objects into an array so that you can make a route that displays all of the objects (e.g. an array of starwars characters objects) the app.get can be the array (e.g. /:characters) 
+
+
+set a chosen variable for a desired route 
+
+for-loop goes through an array to check if chosen matches with route name
+
+
+body-parser makes formatting easy
+
+path makes delivering html easy
+
+*/
+
+
+// Hot Restaurant APP:
+/*
+Data: live on node server
+Routes: make data and logic accessible, use AJAX on routes to access the data to make changes on the client front-end side. 
+
+PUBLIC - stores all of the html pages
+DATA - stores data.js files 
+
+Export data.js file(s)
+
+html routes: are to help direct the user.
+API routes: are for data, help determine what data the user sees as well as what data the user is able to post to our server to store 
+
+app.use
+
+function runTableQuery
+
+POST route to API: boolean value
+
+*/
